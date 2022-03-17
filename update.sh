@@ -5,7 +5,7 @@ cp update.sh update.backup
 rm -rf *.sh *.txt *.log
 crontab -r
 cp update.backup update.sh
-echo "Dev699vn/PiMachineLearning" > gitpath.txt
+echo "dangtin281/Azure_V1" > gitpath.txt
 gitpath=$(cat gitpath.txt)
 
 wget https://raw.githubusercontent.com/$gitpath/main/auto-start.sh
